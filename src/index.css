@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Puck Editor Styles */
+.puck-root {
+  --puck-color-primary: #16a34a !important;
+  --puck-color-primary-light: #22c55e !important;
+}
+
+.puck-button {
+  @apply rounded-lg !important;
+}
